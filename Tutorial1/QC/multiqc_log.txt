@@ -1,0 +1,30 @@
+
+  /// MultiQC 🔍 | v1.13
+
+|           multiqc | MultiQC Version v1.24.1 now available!
+Traceback (most recent call last):
+  File "/mnt/programs/anaconda3/bin/multiqc", line 8, in <module>
+    sys.exit(run_multiqc())
+  File "/mnt/programs/anaconda3/lib/python3.7/site-packages/multiqc/__main__.py", line 22, in run_multiqc
+    multiqc.run_cli(prog_name="multiqc")
+  File "/Zulu/jordan/.local/lib/python3.7/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/mnt/programs/anaconda3/lib/python3.7/site-packages/rich_click/rich_command.py", line 19, in main
+    rv = super().main(*args, standalone_mode=False, **kwargs)
+  File "/Zulu/jordan/.local/lib/python3.7/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Zulu/jordan/.local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Zulu/jordan/.local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/mnt/programs/anaconda3/lib/python3.7/site-packages/multiqc/multiqc.py", line 286, in run_cli
+    multiqc_run = run(**kwargs)
+  File "/mnt/programs/anaconda3/lib/python3.7/site-packages/multiqc/multiqc.py", line 612, in run
+    template_mod = config.avail_templates[config.template].load()
+  File "/mnt/programs/anaconda3/lib/python3.7/site-packages/pkg_resources/__init__.py", line 2470, in load
+    self.require(*args, **kwargs)
+  File "/mnt/programs/anaconda3/lib/python3.7/site-packages/pkg_resources/__init__.py", line 2493, in require
+    items = working_set.resolve(reqs, env, installer, extras=self.extras)
+  File "/mnt/programs/anaconda3/lib/python3.7/site-packages/pkg_resources/__init__.py", line 800, in resolve
+    raise VersionConflict(dist, req).with_context(dependent_req)
+pkg_resources.ContextualVersionConflict: (typing-extensions 4.4.0 (/mnt/programs/anaconda3/lib/python3.7/site-packages), Requirement.parse('typing-extensions<4.0.0,>=3.7.4; python_version < "3.8"'), {'rich'})
