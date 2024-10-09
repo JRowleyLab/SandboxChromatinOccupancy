@@ -1,0 +1,31 @@
+[
+	{
+        "question": "Which answer correctly matches the tool to the processing step?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "picard: filtering low quality reads. samtools view: organize the bam file by coordinate. samtools sort: duplicate removal.",
+                "correct": false,
+                "feedback": "Not quite. Try again."
+            },
+
+            {
+                "answer": "samtools sort: filtering low quality reads. samtools view: organize the bam file by coordinate. samtools sort: duplicate removal.",
+                "correct": false,
+                "feedback": "Not quite. Try again."
+            },
+
+            {
+                "answer": "samtools view: filtering low quality reads. picard: organize the bam file by coordinate. samtools sort: duplicate removal.",
+                "correct": false,
+                "feedback": "Not quite. Try again."
+            },
+    
+            {
+                "answer": "samtools view: filtering low quality reads. samtools sort: organize the bam file by coordinate. picard: duplicate removal.",
+                "correct": true,
+                "feedback": "Yes. samtools view can be used for many functions depending on the options that you use. We used the -q option to impose a quality filter."
+            }
+        ]
+    }
+]

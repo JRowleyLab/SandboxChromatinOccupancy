@@ -17,6 +17,11 @@
                 "answer": "They can can change the intensity of peaks or create false peaks.",
                 "correct": true,
                 "feedback": "Yes. PCR duplicates represent multiple reads with the same sequence and therefore will align to the same genomic coordinates. This can create an artificial build up of reads, i.e. a peak."
+            },
+            {
+                "answer": "PCR duplicates are low quality bases and will be trimmed",
+                "correct": false,
+                "feedback": "Try again. PCR duplicates do not impact the quality of each base. Instead, they represent multiple reads with the same sequence and therefore will align to the same genomic coordinates. This can create an artificial build up of reads, i.e. a peak."
             }
         ]
     }
