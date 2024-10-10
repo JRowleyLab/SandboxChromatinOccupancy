@@ -1,31 +1,21 @@
-[
-	{
-        "question": "Which answer correctly matches the tool to the processing step?",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "picard: filtering low quality reads. samtools view: organize the bam file by coordinate. samtools sort: duplicate removal.",
-                "correct": false,
-                "feedback": "Not quite. Try again."
-            },
-
-            {
-                "answer": "samtools sort: filtering low quality reads. samtools view: organize the bam file by coordinate. samtools sort: duplicate removal.",
-                "correct": false,
-                "feedback": "Not quite. Try again."
-            },
-
-            {
-                "answer": "samtools view: filtering low quality reads. picard: organize the bam file by coordinate. samtools sort: duplicate removal.",
-                "correct": false,
-                "feedback": "Not quite. Try again."
-            },
-    
-            {
-                "answer": "samtools view: filtering low quality reads. samtools sort: organize the bam file by coordinate. picard: duplicate removal.",
-                "correct": true,
-                "feedback": "Yes. samtools view can be used for many functions depending on the options that you use. We used the -q option to impose a quality filter."
-            }
-        ]
-    }
-]
+{
+    "descripton": "Select the command/tool we used for each step.",
+    "questions": [
+        {
+            "question": "conversion to bam and quality filtering",
+            "answer": "samtools view",
+            "explanation": "Hint: this was our first step after mapping the data."
+        },
+        {
+            "question": "organize the bam file by coordinates",
+            "answer": "samtools sort",
+            "explanation": "Hint: we used this tool after converting to a bam file."
+        },
+        {
+            "question": "removal of PCR duplicates",
+            "answer": "picard",
+            "explanation": "Hint: it's important to remove duplicates to avoid false peaks!"
+        }
+    ],
+    "distractors": ["bowtie2", "fastqc", "igv"]
+}
