@@ -68,6 +68,11 @@ This repository contains several notebook files which serve as bioinformatics wo
 
 **Note:** To avoid unintended costs, we also recommend following the instructions to configure the virtual machine to auto-shutdown when left idle: [AWS configuration](https://github.com/STRIDES/NIHCloudLabAWS/blob/main/docs/auto-shutdown-instance.md) and [GCP configuration](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md)
 
+Once you initialize the machine and open jupyter notebook, clone this repository.
+<img src="images/cloningrepository.jpg" width=600 />
+
+After cloning the repository and navigating to the corresponding folder, you will find 3 notebooks, one for each Submodule. To get started, open the notebook corresponding to Submodule 1 and follow the instructions within.
+
 ## **Software Requirements**
 Because this module is hosted on cloud platforms and implemented in Jupyter Lab, the tools required throughout the module are configures via miniconda. Any system with a bash environment running Jupyter Lab should be able to run the module.
 
