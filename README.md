@@ -109,6 +109,6 @@ In Submodule 3, we'll be comparing these data to RNA-seq and ATAC-seq in mESCs a
 Funded by the INBRE Program (NIH/NIGMS P20 GM103427).
 
 ## **License for Data**
-ext and materials are licensed under a Creative Commons CC-BY-NC-SA license. The license allows you to copy, remix, and redistribute any of our publicly available materials, under the condition that you attribute the work (details in the license) and do not make profits from it.
+Text and materials are licensed under a Creative Commons CC-BY-NC-SA license. The license allows you to copy, remix, and redistribute any of our publicly available materials, under the condition that you attribute the work (details in the license) and do not make profits from it.
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
